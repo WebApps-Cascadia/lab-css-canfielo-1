@@ -2,41 +2,51 @@
 body {
     background: #C0CCC1;
     padding: 20px;
+    color: #10220f;
+    font-family: Georgia, Times, serif;
+    line-height: 1.45;
 }
 
 p {
   font-family: Georgia, Times, serif;
-  font-size: 12pt;
+  font-size: 14px;
+  color: #10220f;
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.8em;
-  color: green;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 3.0em;
+  color: #0b6623;
+  margin: 0 0 0.25em 0;
 }
 
 h2 {
-  color: #CC0000;
-  font-size: x-large;
+  color: #094fa6;
+  font-size: 1.6em;
   font-weight: bold;
-  text-transform: lowercase;
+  text-transform: none;
   text-decoration: underline;
-  color: darkblue;
+  margin-top: 1.0em;
 }
 
 .highlight {
-  font-size: xx-large;
-  padding-left: 2em;
+  font-size: 1.6em;
+  padding: 0.5em 1em;
   border: dashed #CC0000 3px;
+  display: inline-block;
+  background: rgba(255,255,255,0.75);
+  margin: 0.5em 0;
 }
 
 .declaration, .property, .value, .rule, .selector {
   font-family: "Courier New", Courier, monospace;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
+  color: #5a0a5a;
 }
 
-
 ul {
-  list-style-type: none;
+  list-style-type: disc;
+  margin-left: 1.5em;
+  padding-left: 0;
 }
