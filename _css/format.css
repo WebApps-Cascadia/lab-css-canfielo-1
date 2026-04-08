@@ -42,8 +42,13 @@ h2 {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.1em;
   font-weight: bold;
-  color: #5a0a5a;
 }
+
+.property { color: #6633FF; }
+.value { color: #003300; }
+.selector { color: #0033CC; }
+.declaration { color: #CC0099; }
+.rule { color: #5a0a5a; }
 
 ul {
   list-style-type: disc;
